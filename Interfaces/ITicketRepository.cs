@@ -1,11 +1,12 @@
 ﻿using HahnBackendTestCRUD.DTOs.Ticket;
+using HahnBackendTestCRUD.Helpers;
 using HahnBackendTestCRUD.Models.Entities;
 
 namespace HahnBackendTestCRUD.Interfaces
 {
     public interface ITicketRepository
     {
-        Task<List<Ticket>> GetAllAsync();
+        Task<List<Ticket>> GetAllAsync(QueryObject query);
 
         Task<Ticket?> GetByIdAsync(int id);
         Task<Ticket> CreateAsync(Ticket ticket);

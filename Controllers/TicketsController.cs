@@ -1,5 +1,6 @@
 ﻿using HahnBackendTestCRUD.Data;
 using HahnBackendTestCRUD.DTOs.Ticket;
+using HahnBackendTestCRUD.Helpers;
 using HahnBackendTestCRUD.Interfaces;
 using HahnBackendTestCRUD.Mappings;
 using Microsoft.AspNetCore.Http;
@@ -21,9 +22,9 @@ namespace HahnBackendTestCRUD.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAllTickets()
+        public async Task<IActionResult> GetAllTickets([FromQuery] QueryObject query)
         {
-            var tickets = await _ticketRepository.GetAllAsync();
+            var tickets = await _ticketRepository.GetAllAsync(query);
 
             var ticketDto = tickets.Select(s => s.ToTicketDto());
             return Ok(ticketDto);

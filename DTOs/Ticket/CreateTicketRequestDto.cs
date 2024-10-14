@@ -7,11 +7,11 @@ namespace HahnBackendTestCRUD.DTOs.Ticket
     {
         [Required]
         [MinLength(3, ErrorMessage = "Description must be more than 3 caracters")]
-        [MaxLength(150, ErrorMessage ="Description must be less than 150 caracters")]
-        public  string Description { get; set; }
+        [MaxLength(150, ErrorMessage = "Description must be less than 150 caracters")]
+        public string Description { get; set; } = string.Empty;
         [Required]
         public Status Status { get; set; }
         [Required]
-        public DateTime Date { get; set; }
+        public DateOnly Date { get; set; }
     }
 }

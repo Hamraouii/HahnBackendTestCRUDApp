@@ -1,5 +1,6 @@
 ﻿using HahnBackendTestCRUD.Data;
 using HahnBackendTestCRUD.DTOs.Ticket;
+using HahnBackendTestCRUD.Helpers;
 using HahnBackendTestCRUD.Interfaces;
 using HahnBackendTestCRUD.Models.Entities;
 using Microsoft.EntityFrameworkCore;
@@ -14,9 +15,31 @@ namespace HahnBackendTestCRUD.Repository
             _ticketDbContext = context;
         }
 
-        public Task<List<Ticket>> GetAllAsync()
+        public async Task<List<Ticket>> GetAllAsync(QueryObject query)
         {
-            return _ticketDbContext.Tickets.ToListAsync();
+            var tickets = _ticketDbContext.Tickets.AsQueryable();
+
+            if (query.Status != 0)
+            {
+                tickets = tickets.Where(t => t.Status == query.Status);
+            }
+
+            if (query.Date != default)
+            {
+                tickets = tickets.Where(t => t.Date == query.Date);
+            }
+
+            if (!string.IsNullOrEmpty(query.SoryBy))
+            {
+                if (query.SoryBy.Equals("Date", StringComparison.OrdinalIgnoreCase))
+                {
+                    tickets = query.IsDescending ? tickets.OrderByDescending(s => s.Date) : tickets.OrderBy(s=>s.Date);
+                }
+            }
+
+            var skipNumber = (query.PageNumber - 1) * query.PageSize;
+
+            return await tickets.Skip(skipNumber).Take(query.PageSize).ToListAsync();
         }
 
         public async Task<Ticket> CreateAsync(Ticket ticket)

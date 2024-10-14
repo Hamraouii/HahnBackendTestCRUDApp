@@ -1,33 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\aelhamraoui\\source\\repos\\HahnBackendTestCRUD\\",
+  "WorkspaceRootPath": "C:\\Users\\Ayoub EL HAMRAOUI\\Desktop\\hahn\\HahnBackendTestCRUDApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|c:\\users\\aelhamraoui\\source\\repos\\hahnbackendtestcrud\\repository\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|solutionrelative:repository\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|c:\\users\\aelhamraoui\\source\\repos\\hahnbackendtestcrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|c:\\users\\ayoub el hamraoui\\desktop\\hahn\\hahnbackendtestcrudapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|c:\\users\\aelhamraoui\\source\\repos\\hahnbackendtestcrud\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|c:\\users\\ayoub el hamraoui\\desktop\\hahn\\hahnbackendtestcrudapp\\models\\entities\\enums\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|solutionrelative:models\\entities\\enums\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|c:\\users\\ayoub el hamraoui\\desktop\\hahn\\hahnbackendtestcrudapp\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|solutionrelative:controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|c:\\users\\aelhamraoui\\source\\repos\\hahnbackendtestcrud\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|solutionrelative:interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|c:\\users\\ayoub el hamraoui\\desktop\\hahn\\hahnbackendtestcrudapp\\helpers\\queryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|solutionrelative:helpers\\queryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|c:\\users\\aelhamraoui\\source\\repos\\hahnbackendtestcrud\\hahnbackendtestcrud.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|solutionrelative:hahnbackendtestcrud.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|c:\\users\\ayoub el hamraoui\\desktop\\hahn\\hahnbackendtestcrudapp\\dtos\\ticket\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|solutionrelative:dtos\\ticket\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|c:\\users\\aelhamraoui\\source\\repos\\hahnbackendtestcrud\\models\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|c:\\users\\ayoub el hamraoui\\desktop\\hahn\\hahnbackendtestcrudapp\\dtos\\ticket\\updateticketrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|solutionrelative:dtos\\ticket\\updateticketrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|c:\\users\\ayoub el hamraoui\\desktop\\hahn\\hahnbackendtestcrudapp\\repository\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|solutionrelative:repository\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|c:\\users\\ayoub el hamraoui\\desktop\\hahn\\hahnbackendtestcrudapp\\dtos\\ticket\\createticketrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|solutionrelative:dtos\\ticket\\createticketrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|c:\\users\\ayoub el hamraoui\\desktop\\hahn\\hahnbackendtestcrudapp\\models\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|solutionrelative:models\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|c:\\users\\aelhamraoui\\source\\repos\\hahnbackendtestcrud\\data\\ticketdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|c:\\users\\ayoub el hamraoui\\desktop\\hahn\\hahnbackendtestcrudapp\\hahnbackendtestcrud.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|solutionrelative:hahnbackendtestcrud.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|c:\\users\\ayoub el hamraoui\\desktop\\hahn\\hahnbackendtestcrudapp\\data\\ticketdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE5B773C-5EFF-4D82-83BA-9AF08F8B158E}|HahnBackendTestCRUD.csproj|solutionrelative:data\\ticketdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 25,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,13 +134,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\Ayoub EL HAMRAOUI\\Desktop\\hahn\\HahnBackendTestCRUDApp\\Models\\Entities\\Enums\\Status.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Enums\\Status.cs",
+              "ToolTip": "C:\\Users\\Ayoub EL HAMRAOUI\\Desktop\\hahn\\HahnBackendTestCRUDApp\\Models\\Entities\\Enums\\Status.cs",
+              "RelativeToolTip": "Models\\Entities\\Enums\\Status.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T20:41:41.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TicketDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ayoub EL HAMRAOUI\\Desktop\\hahn\\HahnBackendTestCRUDApp\\DTOs\\Ticket\\TicketDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Ticket\\TicketDto.cs",
+              "ToolTip": "C:\\Users\\Ayoub EL HAMRAOUI\\Desktop\\hahn\\HahnBackendTestCRUDApp\\DTOs\\Ticket\\TicketDto.cs",
+              "RelativeToolTip": "DTOs\\Ticket\\TicketDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T19:19:34.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateTicketRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ayoub EL HAMRAOUI\\Desktop\\hahn\\HahnBackendTestCRUDApp\\DTOs\\Ticket\\CreateTicketRequestDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Ticket\\CreateTicketRequestDto.cs",
+              "ToolTip": "C:\\Users\\Ayoub EL HAMRAOUI\\Desktop\\hahn\\HahnBackendTestCRUDApp\\DTOs\\Ticket\\CreateTicketRequestDto.cs",
+              "RelativeToolTip": "DTOs\\Ticket\\CreateTicketRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T14:54:33.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "TicketRepository.cs",
-              "DocumentMoniker": "C:\\Users\\aelhamraoui\\source\\repos\\HahnBackendTestCRUD\\Repository\\TicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ayoub EL HAMRAOUI\\Desktop\\hahn\\HahnBackendTestCRUDApp\\Repository\\TicketRepository.cs",
               "RelativeDocumentMoniker": "Repository\\TicketRepository.cs",
-              "ToolTip": "C:\\Users\\aelhamraoui\\source\\repos\\HahnBackendTestCRUD\\Repository\\TicketRepository.cs",
+              "ToolTip": "C:\\Users\\Ayoub EL HAMRAOUI\\Desktop\\hahn\\HahnBackendTestCRUDApp\\Repository\\TicketRepository.cs",
               "RelativeToolTip": "Repository\\TicketRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAYwBUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T14:09:57.357Z",
               "EditorCaption": ""
@@ -132,80 +186,90 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ITicketRepository.cs",
-              "DocumentMoniker": "C:\\Users\\aelhamraoui\\source\\repos\\HahnBackendTestCRUD\\Interfaces\\ITicketRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\ITicketRepository.cs",
-              "ToolTip": "C:\\Users\\aelhamraoui\\source\\repos\\HahnBackendTestCRUD\\Interfaces\\ITicketRepository.cs",
-              "RelativeToolTip": "Interfaces\\ITicketRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Title": "QueryObject.cs",
+              "DocumentMoniker": "C:\\Users\\Ayoub EL HAMRAOUI\\Desktop\\hahn\\HahnBackendTestCRUDApp\\Helpers\\QueryObject.cs",
+              "RelativeDocumentMoniker": "Helpers\\QueryObject.cs",
+              "ToolTip": "C:\\Users\\Ayoub EL HAMRAOUI\\Desktop\\hahn\\HahnBackendTestCRUDApp\\Helpers\\QueryObject.cs",
+              "RelativeToolTip": "Helpers\\QueryObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T14:08:10.694Z",
+              "WhenOpened": "2024-10-14T19:36:37.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "TicketsController.cs",
-              "DocumentMoniker": "C:\\Users\\aelhamraoui\\source\\repos\\HahnBackendTestCRUD\\Controllers\\TicketsController.cs",
+              "DocumentMoniker": "C:\\Users\\Ayoub EL HAMRAOUI\\Desktop\\hahn\\HahnBackendTestCRUDApp\\Controllers\\TicketsController.cs",
               "RelativeDocumentMoniker": "Controllers\\TicketsController.cs",
-              "ToolTip": "C:\\Users\\aelhamraoui\\source\\repos\\HahnBackendTestCRUD\\Controllers\\TicketsController.cs",
+              "ToolTip": "C:\\Users\\Ayoub EL HAMRAOUI\\Desktop\\hahn\\HahnBackendTestCRUDApp\\Controllers\\TicketsController.cs",
               "RelativeToolTip": "Controllers\\TicketsController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABkAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAwFAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T11:50:11.958Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\aelhamraoui\\source\\repos\\HahnBackendTestCRUD\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ayoub EL HAMRAOUI\\Desktop\\hahn\\HahnBackendTestCRUDApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\aelhamraoui\\source\\repos\\HahnBackendTestCRUD\\Program.cs",
+              "ToolTip": "C:\\Users\\Ayoub EL HAMRAOUI\\Desktop\\hahn\\HahnBackendTestCRUDApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAwwBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAwwDIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T10:57:10.788Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
+              "Title": "UpdateTicketRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Ayoub EL HAMRAOUI\\Desktop\\hahn\\HahnBackendTestCRUDApp\\DTOs\\Ticket\\UpdateTicketRequestDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Ticket\\UpdateTicketRequestDto.cs",
+              "ToolTip": "C:\\Users\\Ayoub EL HAMRAOUI\\Desktop\\hahn\\HahnBackendTestCRUDApp\\DTOs\\Ticket\\UpdateTicketRequestDto.cs",
+              "RelativeToolTip": "DTOs\\Ticket\\UpdateTicketRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T19:19:41.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\Ayoub EL HAMRAOUI\\Desktop\\hahn\\HahnBackendTestCRUDApp\\Models\\Entities\\Ticket.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Ticket.cs",
+              "ToolTip": "C:\\Users\\Ayoub EL HAMRAOUI\\Desktop\\hahn\\HahnBackendTestCRUDApp\\Models\\Entities\\Ticket.cs",
+              "RelativeToolTip": "Models\\Entities\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T10:31:20.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "TicketDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\aelhamraoui\\source\\repos\\HahnBackendTestCRUD\\Data\\TicketDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ayoub EL HAMRAOUI\\Desktop\\hahn\\HahnBackendTestCRUDApp\\Data\\TicketDbContext.cs",
               "RelativeDocumentMoniker": "Data\\TicketDbContext.cs",
-              "ToolTip": "C:\\Users\\aelhamraoui\\source\\repos\\HahnBackendTestCRUD\\Data\\TicketDbContext.cs",
+              "ToolTip": "C:\\Users\\Ayoub EL HAMRAOUI\\Desktop\\hahn\\HahnBackendTestCRUDApp\\Data\\TicketDbContext.cs",
               "RelativeToolTip": "Data\\TicketDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T10:36:38.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T10:36:38.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HahnBackendTestCRUD",
-              "DocumentMoniker": "C:\\Users\\aelhamraoui\\source\\repos\\HahnBackendTestCRUD\\HahnBackendTestCRUD.csproj",
+              "DocumentIndex": 9,
+              "Title": "HahnBackendTestCRUD.csproj",
+              "DocumentMoniker": "C:\\Users\\Ayoub EL HAMRAOUI\\Desktop\\hahn\\HahnBackendTestCRUDApp\\HahnBackendTestCRUD.csproj",
               "RelativeDocumentMoniker": "HahnBackendTestCRUD.csproj",
-              "ToolTip": "C:\\Users\\aelhamraoui\\source\\repos\\HahnBackendTestCRUD\\HahnBackendTestCRUD.csproj",
+              "ToolTip": "C:\\Users\\Ayoub EL HAMRAOUI\\Desktop\\hahn\\HahnBackendTestCRUDApp\\HahnBackendTestCRUD.csproj",
               "RelativeToolTip": "HahnBackendTestCRUD.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-14T13:17:35.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\Users\\aelhamraoui\\source\\repos\\HahnBackendTestCRUD\\Models\\Entities\\Ticket.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Ticket.cs",
-              "ToolTip": "C:\\Users\\aelhamraoui\\source\\repos\\HahnBackendTestCRUD\\Models\\Entities\\Ticket.cs",
-              "RelativeToolTip": "Models\\Entities\\Ticket.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T10:31:20.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T13:17:35.771Z"
             }
           ]
         }

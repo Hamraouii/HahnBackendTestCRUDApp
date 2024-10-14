@@ -26,6 +26,16 @@ namespace HahnBackendTestCRUD
 
             builder.Services.AddScoped<ITicketRepository, TicketRepository>();
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAngularApp", builder =>
+                {
+                    builder.WithOrigins("http://localhost:4200")
+                           .AllowAnyHeader()
+                           .AllowAnyMethod();
+                });
+            });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -36,6 +46,7 @@ namespace HahnBackendTestCRUD
             }
 
             app.UseHttpsRedirection();
+            app.UseCors("AllowAngularApp");
 
             app.UseAuthorization();
 
