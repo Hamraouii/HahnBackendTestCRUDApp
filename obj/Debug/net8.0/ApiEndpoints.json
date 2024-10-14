@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "HahnBackendTestCRUD.Controllers.TicketsController",
+    "Method": "GetAllTickets",
+    "RelativePath": "api/ticket",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HahnBackendTestCRUD.Controllers.TicketsController",
+    "Method": "CreateTicket",
+    "RelativePath": "api/ticket",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CreateTicketDto",
+        "Type": "HahnBackendTestCRUD.DTOs.Ticket.CreateTicketRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HahnBackendTestCRUD.Controllers.TicketsController",
+    "Method": "GetTicketById",
+    "RelativePath": "api/ticket/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HahnBackendTestCRUD.Controllers.TicketsController",
+    "Method": "UpdateTicket",
+    "RelativePath": "api/ticket/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateDto",
+        "Type": "HahnBackendTestCRUD.DTOs.Ticket.UpdateTicketRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HahnBackendTestCRUD.Controllers.TicketsController",
+    "Method": "DeleteTicket",
+    "RelativePath": "api/ticket/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

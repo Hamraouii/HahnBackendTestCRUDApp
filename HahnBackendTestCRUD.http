@@ -1,0 +1,6 @@
+@HahnBackendTestCRUD_HostAddress = http://localhost:5145
+
+GET {{HahnBackendTestCRUD_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
