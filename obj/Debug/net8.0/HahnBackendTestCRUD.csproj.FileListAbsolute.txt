@@ -219,3 +219,4 @@ C:\Users\Ayoub EL HAMRAOUI\Desktop\hahn\HahnBackendTestCRUDApp\obj\Debug\net8.0\
 C:\Users\Ayoub EL HAMRAOUI\Desktop\hahn\HahnBackendTestCRUDApp\obj\Debug\net8.0\HahnBack.CAA13E1F.Up2Date
 C:\Users\Ayoub EL HAMRAOUI\Desktop\hahn\HahnBackendTestCRUDApp\obj\Debug\net8.0\HahnBackendTestCRUD.genruntimeconfig.cache
 C:\Users\Ayoub EL HAMRAOUI\Desktop\hahn\HahnBackendTestCRUDApp\obj\Debug\net8.0\ref\HahnBackendTestCRUD.dll
+C:\Users\aelhamraoui\source\repos\HahnBackendTestCRUD\obj\Debug\net8.0\HahnBackendTestCRUD.sourcelink.json

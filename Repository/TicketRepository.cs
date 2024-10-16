@@ -1,4 +1,5 @@
 ﻿using HahnBackendTestCRUD.Data;
+using HahnBackendTestCRUD.DTOs;
 using HahnBackendTestCRUD.DTOs.Ticket;
 using HahnBackendTestCRUD.Helpers;
 using HahnBackendTestCRUD.Interfaces;
@@ -15,7 +16,7 @@ namespace HahnBackendTestCRUD.Repository
             _ticketDbContext = context;
         }
 
-        public async Task<List<Ticket>> GetAllAsync(QueryObject query)
+        public async Task<PaginatedResult<Ticket>> GetAllAsync(QueryObject query)
         {
             var tickets = _ticketDbContext.Tickets.AsQueryable();
 
@@ -36,10 +37,12 @@ namespace HahnBackendTestCRUD.Repository
                     tickets = query.IsDescending ? tickets.OrderByDescending(s => s.Date) : tickets.OrderBy(s=>s.Date);
                 }
             }
+            var totalCount = await tickets.CountAsync();
 
             var skipNumber = (query.PageNumber - 1) * query.PageSize;
+            var ticketList = await tickets.Skip(skipNumber).Take(query.PageSize).ToListAsync();
 
-            return await tickets.Skip(skipNumber).Take(query.PageSize).ToListAsync();
+            return new PaginatedResult<Ticket>(ticketList, totalCount);
         }
 
         public async Task<Ticket> CreateAsync(Ticket ticket)

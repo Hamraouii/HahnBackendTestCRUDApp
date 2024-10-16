@@ -24,10 +24,10 @@ namespace HahnBackendTestCRUD.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllTickets([FromQuery] QueryObject query)
         {
-            var tickets = await _ticketRepository.GetAllAsync(query);
+            var result = await _ticketRepository.GetAllAsync(query);
 
-            var ticketDto = tickets.Select(s => s.ToTicketDto());
-            return Ok(ticketDto);
+
+            return Ok(result);
         }
 
         [HttpGet("{id:int}")]

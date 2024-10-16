@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace HahnBackendTestCRUD.Migrations
 {
     [DbContext(typeof(TicketDbContext))]
-    [Migration("20241014192306_InitialCreate2")]
-    partial class InitialCreate2
+    [Migration("20241015085308_HahnTest")]
+    partial class HahnTest
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
